@@ -15,9 +15,9 @@ body{
 a{
     position: relative;
     display: inline-block;
-    padding: 25px 10px;
+    padding: 10px 10px;
     margin: 40px 0;
-    color: rgb(107, 64, 224);
+    color: rgb(255, 255, 255);
     text-decoration: none;
     text-transform: uppercase;
     transition: 0.5s;
@@ -27,7 +27,8 @@ a{
 a:hover{
     background-color: rgb(55, 255, 55);
     color: rgb(15, 73, 0);
-    box-shadow: 0 0 5px rgb(255, 251, 0), 0 0 5px rgb(0, 255, 170);
+    box-shadow: 10px 5px 5px black;
+    border-radius: 10px;
     -webkit-box-reflect: below 1px linear-gradient(tranparent);
 }
 a:nth-child(1){
